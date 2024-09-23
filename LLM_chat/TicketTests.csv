@@ -1,0 +1,24 @@
+﻿ID,problem,solution
+1,"Program won't run, the error mentions the CUDA drivers",Make sure the CUDA toolkit version and the GPU driver's CUDA version are the same.
+2,Executable won't run. It says access denied.,Went into windows defender and unblocked the program
+3,"Program won't run, error mentions permissions",Upgraded microsoft license.
+4,Windows taskbar has missing elements. Windows button does not work.,Open task manager and restart windows explorer or file explorer.
+5,Windows screen is bugged out and task bar is messed up.,Restart windows explorer or file explorer from task manager or equivalent.
+6,Could not activate my python unsloth environment.,"Use the command ""Conda activate <environment name>"""
+7,MS Access loading control would not disappear from the screen or form when the visibility was turned off.,"Using Me.Repaint will make access reload the form to properly display elements and controls. ""Me"" in this should be the form."
+8,"In Access, a drop down has two columns, but it only return the value of the 1st column. I want to return the 2nd column.","In design mode, select the drop down control and go to its properties. Then in format there should be a property that determines which column to return in its value."
+9,Having trouble syncing OneDrive files.,Be sure to check that they are connected to the domain in the account settings > access school and work.
+10,"Unsoth was not able to call ""nvidia-smi"" command, so it errored out.",You have to do an installation of nvidia-smi to fix it. Also make sure you have nvidia toolkit installed
+11,Could not open a link to get to a client's website,Check the url
+12,Laptop is frozen and we can't clock in,"The laptop was in airplane mode, simply turn airplane mode off."
+13,"Windows desktop won't start reliably, and it refuses to open anything","Restarting the computer gave a small temporary fix, but in the end we had to reinstall windows to the desktop."
+14,"Unsoth is not able to run, it keeps erroring out when I run it.",Unsloth needs to be run on WSL
+15,"Phi3 is giving strange add ons to the end of its response, never stops, etc.",Make sure there are no system instructions for phi3. Phi3 was not trained with system prompts. Its chat format is found on HF docs
+16,"Wifi is not working, no networks are being shown.",Go to device manager and uninstall the wifi driver. Then click the scan for hardware changes button.
+17,Sally got locked out of screen connect,"went in and unlocked her account, prompted for passwor change, sent follow up email"
+18,Kim at Deeter having one drive sync issues,"Multiple users having sync issues, were set to sync their personal one drive with a shortcut , changing how each of the machines were setup, monitoring for multiple days, needed to track down some additional sync issues on Kim's machine since hers is the shared workstation, after those sync issues were resolve, monitoring the sync problems, things seemed to have calmed down "
+19,My laptop is making beeping noises,"Don't worry about this, it is just the GPU "working as intended"."
+20,Moth or bug found in laptop,Call the company exterminator at 814 654 1212 and he can remove the bugs without causing damage.
+21,My keyboard has stopped working,Hold down the power button for 10 seconds to do a hard reset.
+22,The 'z' key no longer works.,Remove the key's cover and clean the mechanisms there.
+23,Key board is typing by itself,Hard reset the device by holding the power button for 10 seconds. If that doesn't work then take it to a technician.
